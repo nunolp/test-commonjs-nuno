@@ -45,4 +45,4 @@ exports["test suite"] = {
 }
 
 if (require.main === module)
-  require("../test").run(exports)
+  require("../test-nunolp").run(exports)

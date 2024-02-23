@@ -1,6 +1,6 @@
 "use strict";
 
-var run = require("../test").run
+var run = require("../test-nunolp").run
 var Logger = require("./utils/logger").Logger
 
 exports["test must call callback to complete it"] = function (assert, done) {
@@ -71,4 +71,4 @@ exports["test multiple tests with timeout"] = function (assert, done) {
 }
 
 if (require.main === module)
-  require("../test").run(exports)
+  require("../test-nunolp").run(exports)

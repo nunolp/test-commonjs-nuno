@@ -1,7 +1,7 @@
 "use strict";
 
 var _assert = require("assert")
-var run = require("../test").run
+var run = require("../test-nunolp").run
 var Logger = require("./utils/logger").Logger
 
 
@@ -68,4 +68,4 @@ exports["test async with fast fail"] = function (assert) {
 }
 
 if (require.main === module)
-  require("../test").run(exports)
+  require("../test-nunolp").run(exports)
